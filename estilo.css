@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+  background-color: #EDF5FE;
+}
+
+h1{
+	font-weight: 500;
+
+}
+
+h2,h3,h4,h5,h6,strong{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;	
+}
+
+
+.display-1{
+	font-weight: 700;
+	word-break: break-all;	
+	color: white;
+}
+
+.display-1:nth-child(1){
+   	background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(https://www.barraques.cat/pngfile/big/1-10314_flower-wallpaper-flower.jpg) no-repeat;
+  	background-size:cover;
+  	background-position: center center;
+  	-webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;	
+}
+
+.display-1:nth-child(2){
+   	background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(https://images.template.net/wp-content/uploads/2015/09/24201250/Tulip-Flowers-Wallpaper-For-You.jpg) no-repeat;
+  	background-size:cover;
+  	background-position: center center;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;	
+}
+
+.display-1:nth-child(3){
+   	background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(https://wallpaperplay.com/walls/full/c/0/f/234572.jpg) no-repeat;
+  	background-size:cover;
+  	background-position: center center;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;	
+}
+
+.display-1:nth-child(4){
+   	background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(https://www.kate.net/funstuff/wallpapers/katenet-flowerwallpaper2011a_2560.jpg) no-repeat;
+  	background-size:cover;
+  	background-position: center center;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;	
+}
+
+
+a#especial{
+	font-style: italic;
+	font-weight: 400;
+	color:red;
+	text-transform: lowercase;
+}
+
+a#especial:before{
+	content:"+ ";
+}
+
+button.navbar-toggler{
+	border:none;
+}
